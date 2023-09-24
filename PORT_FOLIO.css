@@ -693,11 +693,11 @@ nav .fa-solid{
     color:#2a2929;
     font-size: 30px;
 }
-    @media only screen and (max-width:615px){
+    @media only screen and (max-width:630px){
     #header{
         background-color: rgb(255, 255, 255);
         height: 100vh;
-        width: 100%;
+        width: 100vw;
         
     }
     .header_text h1{
@@ -707,6 +707,7 @@ nav .fa-solid{
     .nav-bg{
         background-color: #ffffff;
         height: 40px;
+        width: 100vw;
     }
     .logo{
         padding-top: 7px;
@@ -760,6 +761,7 @@ nav .fa-solid{
     }
     #about{
         height: 100%;
+        width: 100vw;
     }
     .about-row2{
         position: relative;
@@ -786,17 +788,31 @@ nav .fa-solid{
         bottom: -100px;
         display: none;
     }
-    #about{
-        height:auto;
-        width: 100%;
+        .about-col-2{
+        width: 100vw;
+    }
+    .tab-titles{
+        margin-right: 0%;
+    }
+    .button{
+        border-radius: 30px;
+       padding: 1px 5px;
+        font-size: 15px;
+        font-weight: 600;
+        cursor: pointer;
+        position:relative;
+        transition: .3s ease-in;
+        color: #000000;
     }
     .row1{
-        padding-left: 20%;
         padding-bottom: 0%;
+        display: flex;
+        justify-content:center;
     }
     .row2{
         padding-top: 0;
-        padding-left: 20%;
+        display: flex;
+        justify-content:center;
     }
     .container0 .presentation{
         background: rgb(252, 0, 84);
@@ -915,16 +931,16 @@ nav .fa-solid{
     
     .socialmedia a i{
         position:relative;
-        padding: 20px 15px;
+        padding: 20px 10px;
     
     }
     .socialmedia li{
-        padding: 10px;
+         margin-left: 0.5vh;
         display: inline-block;
     }
     .socialmedia {
         display: flex;
-        flex-wrap: wrap;
+        justify-content: center;
         position: absolute;
         left: 2%;
     }
@@ -980,6 +996,7 @@ nav .fa-solid{
         padding-top: 25px;
         font-size: 7px;
         opacity: 0.8;
+        padding-bottom: 20px;
     }
     
     
