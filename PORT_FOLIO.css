@@ -925,34 +925,42 @@ nav .fa-solid{
         z-index: 1;
     }
     .socialmedia ul li i{
-        margin-top: 20px;
+        margin-top: 10px;
         text-decoration: none;
         list-style: none;
         color: #000000;
         font-size: 16px;
+        border-right: 3.5px solid rgb(252, 0, 84);
+        border-top: 3.5px solid rgb(252, 0, 84);
+        border-radius: 20%;
+
     }
-    
     .socialmedia a i{
         position:relative;
-        padding: 20px 10px;
+        padding: 10px 5px;
     
     }
     .socialmedia li{
-        margin-left: 0.5vh;
-        display: inline-block;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
     }
     .socialmedia {
         display: flex;
         justify-content: center;
         position: absolute;
-        left: 1%;
+        left: 3%;
+        margin-top: 15%;
+        border-radius: 30%;
+    
     }
+   
     .second_half{
-        padding-top:150px;
-        padding-left: 10%;
+        padding-top:80px;
+        padding-left: 3cm;
     }
     form input, form textarea{
-        width: 80%;
+        width: 65%;
         border: 0;
         margin-right: 20px;
         outline: none;
